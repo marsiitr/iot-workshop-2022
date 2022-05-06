@@ -15,19 +15,19 @@
 2. Go to **Tools > Board > Boards Manager**:
    
   <a align="right">
-    <img src="./iot-workshop-2022/images/boardManager.png">
+    <img src="./images/boardManager.png">
   </a>
   <br>
   <br>
 3. After Opening Boards Manager, search for **esp8266** and install this board, by clicking on Install Button.
   <a align="right">
-    <img src="./iot-workshop-2022/images/esp.png">
+    <img src="./images/esp.png">
   </a>
   <br>
   <br>
 4. Go to **Tools > Boards > ESP8266 Boards** and select **Node MCU 1.0  (ESP-12E Module)**
   <a align="right">
-    <img src="./iot-workshop-2022/images/nodeMCU.png">
+    <img src="./images/nodeMCU.png">
   </a>
   <br>
   <br>
