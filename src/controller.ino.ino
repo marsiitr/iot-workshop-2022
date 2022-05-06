@@ -103,21 +103,7 @@ if (request.indexOf("/tog=1") != -1)  {
   dir=0;
 }
 
-if (request.indexOf("/Req=2") != -1)  {  
-analogWrite(Pwm1, 767);  //Pwm duty cycle 75%
-analogWrite(Pwm2, 767);  //Pwm duty cycle 75%
-Pw=1;
-}
-if (request.indexOf("/Req=3") != -1)  { 
-analogWrite(Pwm1, 512);  //Pwm duty cycle 50%
-analogWrite(Pwm2, 512);  //Pwm duty cycle 50%
-Pw=2;
-}
-if (request.indexOf("/Req=4") != -1)  {  
-analogWrite(Pwm1, 255);  //Pwm duty cycle 25%
-analogWrite(Pwm2, 255);  //Pwm duty cycle 25%
-Pw=3;
-}
+
 
   // Return the response
   client.println("HTTP/1.1 200 OK");
@@ -146,21 +132,7 @@ Pw=3;
     else
     client.println("Motor rotating in backward direction<br/>" );
 
-switch(Pw){
-      case 1:
-        client.println("Pwm duty cycle 75%<br/>" );
-        break;
-      case 2:
-        client.println("Pwm duty cycle 50%<br/>" );
-        break;  
-      case 3:
-        client.println("Pwm duty cycle 25%<br/>" );
-        break; 
-         
-      default:
-        client.println("Pwm duty cycle 100%<br/>" );
-  }
-  
+
   client.println("</html>");
   delay(1);
   Serial.println("Client disonnected");
