@@ -8,7 +8,7 @@
   http://arduino.esp8266.com/stable/package_esp8266com_index.json
   ```
   <a align="right">
-    <img src="./iot-workshop-2022/images/Preferences.png">
+    <img src="./images/Preferences.png">
   </a>
     <br>
     <br>
